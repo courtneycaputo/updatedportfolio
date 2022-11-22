@@ -89,13 +89,13 @@
   flex-flow: row wrap;
   padding: 0px;
   align-content: flex-start;
-  background-color: black;
+  background-color: var(--darkblue);
 }
 
 .newcard {
-  background-color: black;
+  background-color: var(--darkblue);
   border: 3px solid;
-  border-color: var(--blue);
+  border-color: var(--lightblue);
   height: 450px;
   margin: 1.5rem;
   position: relative;
@@ -108,7 +108,7 @@
   overflow: hidden;
   text-align: center;
   border-radius: 0px;
-  background-color: black;
+  background-color: var(--darkblue);
   
 }
 
@@ -116,72 +116,72 @@
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
-  background-color: black;
+  background-color:var(--darkblue);
  
 }
 
 .newcard .content {
   font-size: 18px;
   text-align: center;
-  background-color: black;
+  background-color:var(--darkblue);
 }
 
 .card-title{
   margin-top: 0px;
   font-size: 20px;
   font-weight: bold;
-  background-color: black;
-  color:var(--purple);
+  background-color: var(--darkblue);
+  color:var(--red);
   
 }
 
 .project-title {
   color: black;
-  background-color: black;
+  background-color: var(--darkblue);
   
 }
 
 .project-icons-container {
-  background-color: black;
+  background-color: var(--darkblue);
 }
 
 .project-icon{
-  background-color: black;
-  color: #00CCFF;
+  background-color: var(--darkblue);
+  color: var(--gold);
   padding: 5px;
   text-decoration: none;
   font-size: 25px;
 }
 
 .project-icon:hover{
-  background-color: black;
+  background-color: var(--darkblue);
   padding: 5px;
   text-decoration: none;
-  color:var(--yellow);
+  color:var(--red);
 }
 
 .topics {
   font-size: small;
   font-style: italic;
-  background-color: black;  
-  color:var(--teal);  
+  background-color: var(--darkblue);  
+  color:var(--gold);  
 }
 
 .project-description{
   font-size: 13px;
   margin: 10px;
-  color:#00CCFF;
+  color:var(--lightblue);
 }
 
 /* Resume */
 
 .resume-link{
-  color: var(--purple);
+  color: var(--red);
   font-size: 50px;
 }
 
 .resume-link:hover{
-  color: var(--yellow);
+  color: var(--gold);
 }
 
 /* Footer */
@@ -190,14 +190,14 @@
   font-size: 40px;
   text-decoration: none;
   padding-right: 10px;
-  color: var(--blue);
+  color: var(--gold);
 }
 
 .footer-link:hover{
   font-size: 40px;
   text-decoration: none;
   padding-right: 10px;
-  color:var(--yellow);
+  color:var(--red);
 }
 
 /* Contact Form */
@@ -213,10 +213,10 @@ form {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: var(--pink);
-  background-color: var(--black);
+  color: var(--darkblue);
+  background-color: var(--lightblue);
   background-clip: padding-box;
-  border: 1px solid var(--blue);
+  border: 1px solid var(--red);
 }
 
 input{
@@ -239,17 +239,17 @@ padding: 5px;
 button{
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--pink);
+  border: 1px solid var(--red);
   outline: none;
-  color: var(--pink);
+  color: var(--red);
 }
 
 button:hover{
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--yellow);
+  border: 1px solid var(--gold);
   outline: none;
-  color: var(--yellow);
+  color: var(--gold);
 }
 
 .form-spacing{

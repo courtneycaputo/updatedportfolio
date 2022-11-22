@@ -6,7 +6,7 @@ import Resume2020 from '../../assets/Resume2020.pdf';
 export default function Resume() {
 
   const jobStyle = {
-    color: "#CC00FF",    
+    color: "#ff6b6c",    
   }
 
   const resumeIcon = [
