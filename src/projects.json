@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Password Generator",
+        "image": "/img/passwordgenerator.png",
+        "github": "https://github.com/courtneycaputo/Password-Generator",
+        "deployedlink": "https://courtneycaputo.github.io/Password-Generator/",
+        "description": "This application can be used to generate a random password",
+        "builtwith": "HTML, CSS, Javascript"
+    },    
+    {
+        "id": 2,
+        "name": "Employee Tracker",
+        "image": "/img/employeemanager.png",
+        "github": "https://github.com/courtneycaputo/employee-tracker",
+        "deployedlink": "",
+        "description": "This application can be used to manage employees, their roles, and departments within the company",
+        "builtwith": "Javascript, Node JS, MySQL"
+    },    
+    {
+        "id": 3,
+        "name": "Team Profile Generator",
+        "image": "/img/teamprofilegenerator.png",
+        "github": "https://github.com/courtneycaputo/team-profile-generator",
+        "deployedlink": "",
+        "description": "This generates a webpage that displays team members and their information",
+        "builtwith": "HTML, CSS, Javascript, Node JS, Inquirer"
+    },    
+    {
+        "id": 4,
+        "name": "Recipe Finder",
+        "image": "/img/recipefinder.png",
+        "github": "https://github.com/courtneycaputo/recipe-finder",
+        "deployedlink": "https://courtneycaputo.github.io/recipe-finder/",
+        "description": "Users can search for an ingredient and 3 random recipes will appear for them to choose from",
+        "builtwith": "HTML, CSS, JavaScript, Materlize, APIs"
+    },    
+    {
+        "id": 5,
+        "name": "Been There, Ate That",
+        "image": "/img/beenthere.png",
+        "github": "https://github.com/ddangeles/BeenThere-AteThat",
+        "deployedlink": "https://beenthereatethat.herokuapp.com/",
+        "description": "This app allows users to add restaurants they want to visit to share with friends, then upload pictures and comments and mark a restaurant as 'been there' once they have visited",
+        "builtwith": "Node.JS, Express.JS, MySQL, NPM, Handlebars, Sequelize"
+    },    
+    {
+        "id": 6,
+        "name": "Daily Planner",
+        "image": "/img/dailyplanner.png",
+        "github": "https://github.com/courtneycaputo/Daily-Planner",
+        "deployedlink": "https://courtneycaputo.github.io/Daily-Planner/",
+        "description": "A daily planner that allows users to update events within each hour block and save to local storage",
+        "builtwith": "HTML, CSS, JavaScript, Bootstrap, JQuery"
+    }
+]
