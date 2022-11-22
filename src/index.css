@@ -1,13 +1,254 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --blue: #00CCFF;
+  --pink: #FF00CC;
+  --black: black;
+  --yellow: #FFFF00;
+  --teal: #00FFCC;
+  --purple: #CC00FF;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  background: black;
+  /* color: #00CCFF; */
+}
+
+.text-color{
+  color: var(--blue);
+}
+
+.my-picture{
+  border-radius: 50%;
+}
+
+.nameFont{
+  font-family: 'Monoton', cursive;
+}
+
+.aboutMeText {
+  font-size: 20px;
+}
+
+/* Navigation */
+.navTitle{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 50px;
+  color: var(--teal);
+}
+
+.mynavlinkactive {
+  color: #FF00CC;
+  background-color: black ;
+  border-color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.mynavlinkactive:hover{
+  color: var(--pink);
+  background-color: black ;
+  border-color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.mynavlink{
+  margin-bottom: calc(-1 * 1px);
+  background: none;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+  color: #00FFCC;
+  text-decoration: none;
+  padding: 10px;
+
+}
+
+.mynavlink:hover{
+  margin-bottom: calc(-1 * 1px);
+  background: none;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+  color: var(--yellow);
+  text-decoration: none;
+  padding: 10px;
+
+}
+
+/* Portfolio */
+.wrapper {
+  padding-top: 10px;
+  justify-content: space-around;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+  flex-flow: row wrap;
+  padding: 0px;
+  align-content: flex-start;
+  background-color: black;
+}
+
+.newcard {
+  background-color: black;
+  border: 3px solid;
+  border-color: var(--blue);
+  height: 450px;
+  margin: 1.5rem;
+  position: relative;
+  width: 350px;
+  
+}
+
+.newcard .img-container {
+  /* height: 75%; */
+  overflow: hidden;
+  text-align: center;
+  border-radius: 0px;
+  background-color: black;
+  
+}
+
+.newcard .img-container img {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: black;
+ 
+}
+
+.newcard .content {
+  font-size: 18px;
+  text-align: center;
+  background-color: black;
+}
+
+.card-title{
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  color:var(--purple);
+  
+}
+
+.project-title {
+  color: black;
+  background-color: black;
+  
+}
+
+.project-icons-container {
+  background-color: black;
+}
+
+.project-icon{
+  background-color: black;
+  color: #00CCFF;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.project-icon:hover{
+  background-color: black;
+  padding: 5px;
+  text-decoration: none;
+  color:var(--yellow);
+}
+
+.topics {
+  font-size: small;
+  font-style: italic;
+  background-color: black;  
+  color:var(--teal);  
+}
+
+.project-description{
+  font-size: 13px;
+  margin: 10px;
+  color:#00CCFF;
+}
+
+/* Resume */
+
+.resume-link{
+  color: var(--purple);
+  font-size: 50px;
+}
+
+.resume-link:hover{
+  color: var(--yellow);
+}
+
+/* Footer */
+
+.footer-link{
+  font-size: 40px;
+  text-decoration: none;
+  padding-right: 10px;
+  color: var(--blue);
+}
+
+.footer-link:hover{
+  font-size: 40px;
+  text-decoration: none;
+  padding-right: 10px;
+  color:var(--yellow);
+}
+
+/* Contact Form */
+
+form {
+  width: 500px;
+}
+
+.formcontrol{
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--pink);
+  background-color: var(--black);
+  background-clip: padding-box;
+  border: 1px solid var(--blue);
+}
+
+input{
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--pink);
+  outline: none;
+  transition: box-shadow 0.2s;
+  color:#00CCFF;
+  background-color: var(--black);
+}
+
+textarea{
+  width: 600px;
+height: 120px;
+border: 0px solid #cccccc;
+padding: 5px;
+}
+
+button{
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--pink);
+  outline: none;
+  color: var(--pink);
+}
+
+button:hover{
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--yellow);
+  outline: none;
+  color: var(--yellow);
+}
+
+.form-spacing{
+  margin-top: 2rem !important;
 }
